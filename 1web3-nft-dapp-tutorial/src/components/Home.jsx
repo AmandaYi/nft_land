@@ -30,9 +30,10 @@ function Home() {
 
   return (
     <div>
+      {/* 钱包展示 */}
       <WalletBalance />
 
-      <h1>Fired Guys NFT Collection</h1>
+      <h1>NFT Collection</h1>
       <div className="container">
         <div className="row">
           {Array(totalMinted + 1)
